@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module Pr5
+module ArithMean
   VERSION = "0.1.0"
 end

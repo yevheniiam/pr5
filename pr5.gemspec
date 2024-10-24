@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/pr5/version"
+require_relative "lib/ArithMean/version"
 
 Gem::Specification.new do |spec|
   spec.name = "ArithMean"
-  spec.version = Pr5::VERSION
+  spec.version = ArithMean::VERSION
   spec.authors = ["yevheniiam"]
   spec.email = ["yevheniia.moiseieva@student.karazin.ua"]
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/yevheniiam/pr5.git"
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["changelog_uri"] = "https://github.com/yevheniiam/pr5/blob/master/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

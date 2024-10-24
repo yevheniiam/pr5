@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "ArithMean"
+require "ArithMean_spec"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

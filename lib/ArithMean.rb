@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 # lib/ArithMean.rb
 
-require "pr5/version"
+require "ArithMean/version"
 
-module Pr5
+
+module ArithMean
   class Calculator
     def self.average(numbers)
       raise ArgumentError, "Array cannot be empty" if numbers.empty?
